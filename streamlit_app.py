@@ -13,6 +13,6 @@ if st.button('生成随机数'):
     if lower_bound < upper_bound:
         # 生成随机数并保留两位小数
         random_number = round(random.uniform(lower_bound, upper_bound), 2)
-        st.markdown(f'生成的随机数是:** {random_number}**')
+        st.markdown(f'生成的随机数是: **{random_number}**')
     else:
         st.error('随机数下限必须小于上限。')
